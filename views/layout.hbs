@@ -15,8 +15,8 @@
     <a href="#home" class="bar-item button"><img class="logo" src = "../images/Title2.png" height=25px></a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="nav-items right hide-small">
-      <a href="#projects" class="bar-item button">PORTFOLIO</a>
       <a href="#about" class="bar-item button">ABOUT</a>
+      <a href="#projects" class="bar-item button">PORTFOLIO</a>
       <a href="#contact" class="bar-item button">CONTACT</a>
     </div>
   </div>
@@ -24,14 +24,30 @@
 
 <!-- Header -->
 <header class="display-container content wide" style="max-width:1500px;" id="home">
-  <img class="image" src="/images/adacollective.jpg" alt="Ada Collective" width="1500" height="800">
+  <!-- <img class="image" src="/images/adacollective.jpg" alt="Ada Collective" width="1500" height="800">
   <div class="display-middle margin-top center">
     <h1 class="xxlarge text-white"><span class="hide-small text-light-grey">Ada Collective</span></h1>
+  </div> -->
+
+  <div class="cover">
+    <div class="col justify-content-center text-center">
+      <!-- <h4 class="tagline">Ada Collective</h4>
+      <a class="btn btn-outline-secondary" href="/posts/new">Start Now</a>
+      <div class="show">
+        <a class="button" href="#posts"><h4 class="text-center show-more">▼<span class="tooltiptext">SEE POSTS</span></h4></a>
+      </div>
+    </div> -->
+    <div class="cover-pic"></div>
   </div>
 </header>
 
 <!-- Page content -->
 <div class="content padding" style="max-width:1564px">
+  <!-- About Section -->
+  <div class="container padding-32" id="about">
+    <h3 class="border-bottom border-light-grey padding-16">ABOUT</h3>
+    <p>Ada Collective is a web development agency that helps businesses build an online presence from scratch.</p>
+  </div>
 
   <!-- Project Section -->
   <div class="container padding-32" id="projects">
@@ -92,15 +108,6 @@
     </div>
   </div> -->
 
-  <!-- About Section -->
-  <div class="container padding-32" id="about">
-    <h3 class="border-bottom border-light-grey padding-16">ABOUT</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
-  </div>
-
   <!-- <div class="row-padding grayscale">
     <div class="col l3 m6 margin-bottom">
       <img src="/images/team1.jpg" alt="Diana" style="width:100%">
@@ -121,7 +128,7 @@
   <!-- Contact Section -->
   <div class="container padding-32" id="contact">
     <h3 class="border-bottom border-light-grey padding-16">CONTACT</h3>
-    <p>Let's get in touch and talk about your next project!</p>
+    <p>Let's get in touch and chat about your business!</p>
     <form action="/action_page.php" target="_blank">
       <input class="input border" type="text" placeholder="Name" required name="Name">
       <input class="input section border" type="text" placeholder="Email" required name="Email">
